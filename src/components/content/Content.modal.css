@@ -1,0 +1,70 @@
+.h1Card {
+  position: relative;
+  width: 363px;
+  height: 39px;
+  left: 46px;
+  top: 33px;
+  color: #ffffff;
+
+  font-family: "Duru Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  text-transform: uppercase;
+}
+
+.h1Card:after {
+  position: absolute;
+  top: 17px;
+  left: -31px;
+  width: 30px;
+  height: 5px;
+  content: "";
+  transition: width 0.3s;
+  flex-wrap: nowrap;
+  justify-content: center;
+  transform: rotate(90deg);
+}
+
+.h1Card:hover:after,
+.h1Card:focus:after {
+  height: 3px;
+  background-color: #00a650;
+}
+
+.CardGroup {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+
+}
+
+.CardGroup:hover {
+  animation: anim 1.1s linear infinite;
+}
+
+@keyframes anim {
+  0% {
+    transform: rotate(0deg);
+    overflow-x: 0px;
+  }
+  100% {
+    transform: rotate(360deg);
+    overflow-x: 100px;
+  }
+}
+ 
+@-webkit-keyframes anim {
+   0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.CardGroup::-webkit-scrollbar {
+  animation: anim 1.1s linear infinite;
+  display: none;
+}

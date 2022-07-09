@@ -1,0 +1,39 @@
+.navContent {
+  display: flex;
+  margin-top: 29px;
+}
+
+.navContentA {
+  display: flex;
+  flex: 1;
+  font-family: 'Duru Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  flex-wrap: nowrap;
+  justify-content: center;
+
+  position: relative;
+  cursor: pointer;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.navContentA:after {
+  position: absolute;
+  top: 30px;
+  width: 0;
+  height: 2px;
+  background-color: #00a650;
+  content: "";
+  transition: width 0.3s ease-out;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.navContentA:hover:after,
+.navContentA:focus:after {
+  width: 100%;
+}

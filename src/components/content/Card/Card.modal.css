@@ -1,0 +1,98 @@
+.cardBody1 {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 329px;
+  height: 385px;
+  left: 38px;
+  top: 801px;
+  display: flex;
+  background: linear-gradient(90deg, #494544 0%, #504b4a 100%);
+  border-radius: 10px;
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imgCard {
+  width: 325px;
+  height: 227px;
+  /* transfor
+  m: rotate(-90deg); */
+}
+
+.titleCard {
+  font-family: 'Duru Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  width: 86px;
+  height: 27px;
+  color: #ffffff;
+  margin-top: 24px;
+  margin-left: 20px;
+}
+
+.kgCard {
+  margin-right: 30px;
+  margin-bottom: 4px;
+  font-family: 'Duru Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+}
+
+.descriptionCard {
+  width: 253px;
+  height: 34px;
+  margin: -26px 0 0 19px;
+  /* margin-top: -15px; */
+  font-family: 'Duru Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: #cfcfcf;
+}
+
+.priceInfo {
+  display: flex;
+}
+.price {
+  width: 54px;
+  height: 24px;
+  margin-left: 20px;
+  font-family: 'Duru Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.btnCard {
+  margin-top: 10px;
+  margin-left: 110px;
+  background: linear-gradient(114.93deg, #618967 5.11%, #72a479 94%);
+  border-radius: 10px;
+  width: 137px;
+  height: 44px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: 'Duru Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  padding-bottom: 14px;
+  padding-left: 10px;
+}
+
+.iconBasket {
+  position: relative;
+  top: 7px;
+  margin-left: 23px;
+}
