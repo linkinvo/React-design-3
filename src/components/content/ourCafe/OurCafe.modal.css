@@ -91,10 +91,12 @@
 .cards_MaskGroup {
     display: flex;
     cursor: pointer;
+    position: relative;
+    bottom: 3050px;
 }
 
 
-.cards_MaskGroup_items {
+.cards_MaskGroup_items_one {
     display: flex;
     position: absolute;
     width: 228px;
@@ -118,6 +120,60 @@
     cursor: pointer;
 }
 
+.cards_MaskGroup_items_two {
+    display: flex;
+    position: absolute;
+    width: 228px;
+    height: 227px;
+    left: 1071px;
+    top: 2498px;
+    background: rgba(80, 75, 74, 0.9);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border-radius: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards_MaskGroup_items_three {
+    display: flex;
+    position: absolute;
+    width: 228px;
+    height: 227px;
+    left: 831px;
+    top: 2738px;
+    background: rgba(80, 75, 74, 0.9);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border-radius: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards_MaskGroup_items_four {
+    display: flex;
+    position: absolute;
+    width: 228px;
+    height: 227px;
+    left: 1071px;
+    top: 2738px;
+    background: rgba(80, 75, 74, 0.9);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border-radius: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
+
 .ccc:hover {
     background-image: #00a650;
     color: #79B282;
@@ -135,4 +191,8 @@
 
     color: #FFFFFF;
 
+}
+
+.svg_cards_item {
+padding-top: 50px;
 }

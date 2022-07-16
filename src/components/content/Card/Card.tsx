@@ -2,9 +2,6 @@ import React from 'react';
 import { Product } from '../Content';
 import './Card.modal.css'
 
-
-
-
 interface ProductP {
     id?: number;
     name?: string;
@@ -16,11 +13,6 @@ interface ProductP {
 
 }
 const Card: React.FC<ProductP> = ( {product} ) => {
-
-    console.log('====================================');
-    console.log(Object.values(product), 'kkk');
-    console.log('====================================');
-
 
     return (
         <>

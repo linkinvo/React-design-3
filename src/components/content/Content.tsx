@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {ReactNode} from 'react'
 import NavContent from './NavContent'
 import './Content.modal.css'
 import Card from './Card/Card'
@@ -24,9 +24,9 @@ export const product = [
     },
 ];
 
-export interface Product  {
+export interface Product {
     // map?: any;
-    map?(arg0: () => JSX.Element): React.ReactNode;
+    map?(arg0: () => JSX.Element): ReactNode;
     id?: number;
     name?: string;
     kg?: number;
@@ -48,8 +48,8 @@ const Content: React.FC<Product> = () => {
             <h1 className='h1Card'>ХОЛОДНЫЕ ЗАКУСКИ</h1>
             <br />
             <div className='CardGroup'>
-                {product !== undefined ? product.map((i)=> {
-                    return(
+                {product !== undefined ? product.map((i) => {
+                    return (
 
                         <Card key={i.id} product={i} />
 
@@ -59,13 +59,13 @@ const Content: React.FC<Product> = () => {
                     : <h1>Oh my goodness..</h1>
                 }
             </div>
-<div className='lineBord'></div>
+            <div className='lineBord'></div>
 
-<h1 className='h1Card'>ГОРЯЧИЕ ЗАКУСКИ</h1>
-<br />
-<div className='CardGroup'>
-                {product !== undefined ? product.map((i)=> {
-                    return(
+            <h1 className='h1Card'>ГОРЯЧИЕ ЗАКУСКИ</h1>
+            <br />
+            <div className='CardGroup'>
+                {product !== undefined ? product.map((i) => {
+                    return (
 
                         <Card key={i.id} product={i} />
 
@@ -80,9 +80,9 @@ const Content: React.FC<Product> = () => {
             <h1 className='h1Card'>Мясные блюда</h1>
             <br />
             <br />
-<div className='CardGroup'>
-                {product !== undefined ? product.map((i)=> {
-                    return(
+            <div className='CardGroup'>
+                {product !== undefined ? product.map((i) => {
+                    return (
 
                         <Card key={i.id} product={i} />
 
@@ -92,7 +92,11 @@ const Content: React.FC<Product> = () => {
                     : <h1>Oh my goodness..</h1>
                 }
             </div>
-            <OurCafe/>
+            <OurCafe />
+
+            <div>
+                <img src="img/GpsCard.png" alt="GpsCard" />
+            </div>
             <br />
             <br />
             <br />
