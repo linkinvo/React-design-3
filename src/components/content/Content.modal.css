@@ -37,7 +37,7 @@
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
-cursor: pointer;
+  cursor: pointer;
 }
 
 /* .CardGroup:hover {
@@ -70,7 +70,208 @@ cursor: pointer;
 }
 
 .lineBord {
-  border-bottom: 1px solid  #8a8377 ;
+  border-bottom: 1px solid #8a8377;
   margin-top: 50px;
 
+}
+
+.imgGpsGroup {
+  position: relative;
+  top: -150px;
+  z-index: -1;
+}
+
+.svgGpsGroup {
+  position: relative;
+  bottom: 519px;
+  left: 1019px;
+  transition: 1s;
+}
+
+.svgGpsGroup:hover {
+  transform: scale(1.1);
+}
+
+.contactGpsGroup {
+  position: absolute;
+  width: 526px;
+  height: 405px;
+  left: 107px;
+  top: 3100px;
+  margin-top: -47px;
+
+  background: #2E2B2C;
+  box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+}
+
+.contactGroup_h3 {
+  width: 155px;
+  height: 36px;
+  font-family: "Duru Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-left: 43px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.lineContactGroup {
+  margin-bottom: 14px;
+}
+
+.block_one_contactGroup {
+  position: relative;
+  bottom: 20px;
+}
+
+.contactGroup_span_address {
+  position: relative;
+  top: 10px;
+  width: 391px;
+  height: 65px;
+  font-family: "Duru Sans";
+  font-style: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #CFCFCF;
+
+}
+
+.contactGroup_p {
+  color: #ffffff;
+  margin-left: 87px;
+
+}
+
+.contactGroup_svg_location {
+  position: relative;
+  width: 15.36px;
+  height: 18.27px;
+  left: 4.24px;
+  top: 14px;
+  margin-left: 59px;
+  margin-right: 12px;
+}
+
+
+.contactGroup_svg_message {
+  position: relative;
+  width: 19.23px;
+  height: 17.12px;
+  left: 2px;
+  top: 13px;
+  margin-left: 59px;
+  margin-right: 10px;
+}
+
+.contactGroup_span_email {
+  position: relative;
+  top: 10px;
+  width: 391px;
+  height: 65px;
+  font-family: "Duru Sans";
+  font-style: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #CFCFCF;
+
+}
+
+.contactGroup_p_email {
+  position: relative;
+  width: 165px;
+  height: 41px;
+  left: 89px;
+  top: 3px;
+
+  font-family: "Duru Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.line_52 {
+  position: relative;
+  bottom: 47px;
+}
+
+.item_contactGroup_Connection {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 40px;
+}
+
+.contactGroup_button {
+  width: 211px;
+  height: 56px;
+  background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.contactGroup_number {
+  position: relative;
+  width: 198px;
+  height: 28px;
+  bottom: 9px;
+  font-family: "Duru Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.contactGroup_number span {
+  position: relative;
+  bottom: 10px;
+  width: 190px;
+  height: 16px;
+  font-family: "Duru Sans", ;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: right;
+  color: #CFCFCF;
+}
+
+.socialNetwork {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+  position: relative;
+  bottom: 43px;
+}
+
+.socialNetwork_item {
+  width: 122px;
+  height: 19px;
+  font-family: "Duru Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.socialNetwork_item_icon {
+  margin-left: 11px;
+  cursor: pointer;
+}
+
+.socialNetwork_icon {
+  margin-left: 46px;
 }
